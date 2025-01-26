@@ -1,0 +1,38 @@
+version: 2
+updates:
+  # Check for updates for github-actions
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+      day: 'friday'
+      time: '06:00'
+      timezone: 'Europe/Paris'
+    commit-message:
+      prefix: 'ci'
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'aefly'
+    assignees:
+      - 'aefly'
+    labels:
+      - 'actions'
+
+  # Check updates for npm dependencies
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+      day: 'friday'
+      time: '06:00'
+      timezone: 'Europe/Paris'
+    commit-message:
+      prefix: 'deps'
+    open-pull-requests-limit: 10
+    reviewers:
+      - 'aefly'
+    assignees:
+      - 'aefly'
+    labels:
+      - 'dependencies'
+      - 'pnpm'

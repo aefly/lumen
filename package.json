@@ -1,0 +1,54 @@
+{
+  "name": "lumen",
+  "displayName": "Lumen",
+  "description": "🌙 Dark theme inspired by Vercel, for a modern, sleek coding experience.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lumen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/lumen.json"
+      }
+    ]
+  },
+  "keywords": [
+    "vscode",
+    "theme",
+    "lumen",
+    "dark",
+    "vercel"
+  ],
+  "icon": "img/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aefly/lumen"
+  },
+  "homepage": "https://github.com/aefly/lumen",
+  "bugs": "https://github.com/aefly/lumen/issues",
+  "author": "aefly",
+  "publisher": "aefly",
+  "license": "MIT",
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1",
+    "generator-code": "^1.11.5",
+    "prettier": "^3.4.2",
+    "yo": "^5.1.0"
+  },
+  "scripts": {
+    "build": "mkdir -p ./bin && vsce package -o ./bin/lumen.vsix",
+    "publish": "vsce publish",
+    "lint:check": "prettier --check '**/*.{json,jsonc,yaml}' --debug-check",
+    "lint:write": "prettier --write '**/*.{json,jsonc,yaml}'"
+  }
+}

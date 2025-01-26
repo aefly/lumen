@@ -1,0 +1,17 @@
+// markdownlint config
+// Source: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+{
+  "config": {
+    "default": true,
+    "MD013": false,
+    "MD024": false,
+    "MD026": false,
+    "MD033": false,
+    "MD034": false,
+    "MD040": false,
+    "MD045": false,
+    "MD051": false
+  },
+  "ignores": ["LICENSE"]
+}
