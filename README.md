@@ -2,7 +2,7 @@
   <br>
   <img alt="Lumen Logo" width="96" src="https://github.com/aefly/lumen/blob/main/img/github/icon.png?raw=true">
   <br>
-  Lumen.
+  Lumen
   <br>
 </h1>
 
