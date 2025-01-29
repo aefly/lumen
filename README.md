@@ -62,7 +62,7 @@ code --install-extension aefly.lumen
 
 ### Open VSX Registry
 
-If you use [VSCodium](http://vscodium.com/), you can also install it from [Open VSX](https://open-vsx.org/extension/aefly/lumen).
+If you use [VSCodium](https://vscodium.com/), you can also install it from [Open VSX](https://open-vsx.org/extension/aefly/lumen).
 
 ## Settings
 
