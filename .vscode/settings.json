@@ -22,5 +22,8 @@
 
   // Prettier
   "prettier.requireConfig": true,
-  "prettier.configPath": "./.prettierrc.mjs"
+  "prettier.configPath": "./.prettierrc.mjs",
+
+  // Conventional Commits
+  "conventionalCommits.scopes": ["deps"]
 }
