@@ -13,8 +13,10 @@
 <p align="center">
   <img
     alt="Visual Studio Marketplace Downloads"
-    src="https://img.shields.io/visual-studio-marketplace/d/aefly.lumen?labelColor=%23000000&color=%23D32D6C"
+    src="https://img.shields.io/visual-studio-marketplace/d/aefly.lumen?label=Marketplace%20Downloads&labelColor=%23000000&color=%23D32D6C"
   />
+  <img alt="Open VSX Downloads"
+  src="https://img.shields.io/open-vsx/dt/aefly/lumen?label=Open%20VSX%20Downloads&labelColor=000000&color=D32D6C">
   <img
     alt="GitHub last commit"
     src="https://img.shields.io/github/last-commit/aefly/lumen?display_timestamp=committer&labelColor=%23000000&color=%23D32D6C"
