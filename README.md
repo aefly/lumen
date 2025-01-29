@@ -48,13 +48,17 @@
 
 To install **Lumen**, follow these steps:
 
-### Marketplace
+### VSCode Marketplace
 
 Download and install Lumen directly from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=aefly.lumen) to get started in just a few clicks.
 
 ### Command line
 
 If you prefer using the command line, open Visual Studio Code and run the following command in your terminal:
+
+### Open VSX Registry
+
+If you use [VSCodium](http://vscodium.com/), you can also install it from [Open VSX](https://open-vsx.org/extension/aefly/lumen).
 
 ```bash
 code --install-extension aefly.lumen
