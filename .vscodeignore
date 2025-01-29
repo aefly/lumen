@@ -1,2 +1,8 @@
 .vscode/**
+.github/**
 .gitignore
+.prettierignore
+package.json
+pnpm-lock.yaml
+.markdownint-cli2.jsonc
+TODO.md
