@@ -2,7 +2,7 @@
   "name": "lumen",
   "displayName": "Lumen",
   "description": "🌙 Dark theme inspired by Vercel, for a modern, sleek coding experience.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.96.0"
   },
