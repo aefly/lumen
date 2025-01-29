@@ -53,8 +53,8 @@ jobs:
 
       # Package and publish the theme
       - name: Publish to VSCode Marketplace
-        run: vsce publish -p ${{ secrets.LUMEN_VSCE_TOKEN}}
+        run: vsce publish -p ${{ secrets.LUMEN_VSCE}}
 
       # Package and publish the theme
       - name: Publish to Open VSIX Registry
-        run: ovsx publish -p ${{ secrets.LUMEN_OVSX_TOKEN}}
+        run: ovsx publish -p ${{ secrets.LUMEN_OVSX}}
