@@ -2,7 +2,7 @@
   "name": "lumen",
   "displayName": "Lumen",
   "description": "🌙 Dark theme inspired by Vercel, for a modern, sleek coding experience.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -48,7 +48,8 @@
   },
   "scripts": {
     "build": "mkdir -p ./bin && vsce package -o ./bin/lumen.vsix",
-    "publish": "vsce publish",
+    "publish:vsce": "vsce publish",
+    "publish:ovsx": "ovsx publish",
     "lint:check": "prettier --check '**/*.{json,jsonc,yaml}' --debug-check",
     "lint:write": "prettier --write '**/*.{json,jsonc,yaml}'"
   }
