@@ -33,10 +33,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      # Install VSCE
-      - name: Install VSCE
-        run: pnpm install -g @vscode/vsce
-
       # Build .vsix file
       - name: Build .vsix
-        run: vsce package
+        run: pnpm exec vsce package
