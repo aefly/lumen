@@ -1805,7 +1805,7 @@
     "menu.selectionForeground": "#ffffff",
     "menu.selectionBackground": "#d32d6c",
     "menu.selectionBorder": "#000000",
-    "menu.separatorBackground": "#000000",
+    "menu.separatorBackground": "#cccccc",
     "menu.border": "#3f3f3f",
     "button.background": "#d32d6c",
     "button.foreground": "#ffffff",
