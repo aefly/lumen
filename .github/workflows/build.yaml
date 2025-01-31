@@ -4,6 +4,8 @@ on:
   pull_request_target:
     branches:
       - main
+
+  # Manually trigger the workflow
   workflow_dispatch:
 
 jobs:

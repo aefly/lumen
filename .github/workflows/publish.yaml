@@ -9,6 +9,7 @@ on:
     paths-ignore:
       - README.md
       - CHANGELOG.md
+      - TODO.md
       - LICENSE
       - .gitignore
       - .vscodeignore
@@ -52,7 +53,6 @@ jobs:
       - name: Publish to VSCode Marketplace
         run: pnpm exec vsce publish -p ${{ secrets.LUMEN_VSCE}}
 
-      # Package and publish the theme
       - name: Publish to Open VSIX Registry
         if: always()
         run: pnpm exec ovsx publish -p ${{ secrets.LUMEN_OVSX}}
