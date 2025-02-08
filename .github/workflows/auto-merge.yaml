@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 jobs:
-  review-dependabot-pr:
+  auto-merge:
     runs-on: ubuntu-latest
     if: ${{ github.event.pull_request.user.login == 'dependabot[bot]' }}
     steps:
