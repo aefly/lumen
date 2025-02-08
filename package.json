@@ -41,7 +41,7 @@
   "license": "MIT",
   "devDependencies": {
     "@vscode/vsce": "^3.2.2",
-    "generator-code": "^1.11.5",
+    "generator-code": "^1.11.6",
     "ovsx": "^0.10.1",
     "prettier": "^3.4.2",
     "yo": "^5.1.0"
