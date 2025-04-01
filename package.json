@@ -40,7 +40,7 @@
   "publisher": "aefly",
   "license": "MIT",
   "devDependencies": {
-    "@vscode/vsce": "^3.2.2",
+    "@vscode/vsce": "^3.3.2",
     "generator-code": "^1.11.8",
     "ovsx": "^0.10.1",
     "prettier": "^3.5.3",
